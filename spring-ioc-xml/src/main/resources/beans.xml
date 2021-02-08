@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="personDao" class="com.hlj.spring.dao.PersonDaoImpl"></bean>
+    <bean id="mysqlDao" class="com.hlj.spring.dao.MysqlDaoImpl"></bean>
+    <bean id="oracleDao" class="com.hlj.spring.dao.OracleDaoImpl"></bean>
+    <bean id="sqlServerDao" class="com.hlj.spring.dao.SqlServerDaoImpl"></bean>
+
+    <bean id="personService" class="com.hlj.spring.service.PersonServiceImpl">
+<!--        <property name="personDao" ref="personDao"></property>-->
+        <property name="personDao" ref="sqlServerDao"></property>
+    </bean>
+
+</beans>

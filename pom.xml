@@ -11,6 +11,7 @@
     <modules>
         <module>spring-ioc1</module>
         <module>spring-ioc2</module>
+        <module>spring-ioc-xml</module>
     </modules>
 
 
