@@ -1,4 +1,4 @@
-package service;
+package com.hlj.spring.service;
 
 /**
  * @author jingzhidematong

@@ -1,7 +1,7 @@
-package service;
+package com.hlj.spring.service;
 
-import dao.UserDao;
-import dao.UserDaoImpl;
+import com.hlj.spring.dao.UserDao;
+import com.hlj.spring.dao.UserDaoImpl;
 
 /**
  * @author jingzhidematong

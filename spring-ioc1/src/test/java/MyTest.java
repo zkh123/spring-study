@@ -1,5 +1,5 @@
-import service.UserService;
-import service.UserServiceImpl;
+import com.hlj.spring.service.UserService;
+import com.hlj.spring.service.UserServiceImpl;
 
 /**
  * @author jingzhidematong

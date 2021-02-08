@@ -1,4 +1,4 @@
-package dao;
+package com.hlj.spring.dao;
 
 /**
  * @author jingzhidematong
